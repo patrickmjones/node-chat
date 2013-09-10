@@ -47,8 +47,3 @@ var app = connect()
 	.use(connect.static('public'))
 	.use(handleRequest)
 	.listen(8080);
-/*
-require('http')
-	.createServer(handleRequest)
-	.listen(8080);
-*/
